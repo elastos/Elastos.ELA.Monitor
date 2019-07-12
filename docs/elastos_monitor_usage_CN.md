@@ -83,19 +83,16 @@ $ sudo systemctl enable mongod
 
 #### 2.1 下载程序
 
-下载程序
-
 ```
-# 拷贝Elastos.ELA.Monitor监测程序到服务器monitor
-$ scp -r ./Elastos.ELA.Monitor username@ip:~/monitor
+# 进入monitor目录
+$ cd ~/monitor
+# 下载monitor
+$ wget https://github.com/elastos/Elastos.ELA.Monitor/archive/master.zip
+# 解压程序
+$ unzip master.zip
+# 重命名
+$ mv Elastos.ELA.Monitor-master Elastos.ELA.Monitor
 
-案例:
-scp -r ./Elastos.ELA.Monitor root@192.168.2.123:~/monitor
-
-# 查看监测程序是否已成功上传服务器
-$ cd ～/monitor
-$ ls 
-#看到有Elastos.ELA.Monitor 说明上传程序已完成
 ```
 
 #### 2.2 安装依赖包
