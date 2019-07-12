@@ -1,0 +1,17 @@
+00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
+00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
+
+00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_onduty_info.sh ela
+00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_onduty_info.sh ela
+
+00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_peers.sh ela
+00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_peers.sh ela
+
+0*/10 * * * *  ~/monitor/Elastos.ELA.Monitor/shell/add_onduty_info.sh ela
+
+0*/30 * * * *  ~/monitor/Elastos.ELA.Monitor/shell/warn_node_height.sh ela
+0 */2 * * *  ~/monitor/Elastos.ELA.Monitor/shell/warn_onduty.sh ela
+0 */1 * * *  ~/monitor/Elastos.ELA.Monitor/shell/warn_onduty_viewoffset.sh ela
+0 */1 * * *  ~/monitor/Elastos.ELA.Monitor/shell/warn_producer_state.sh ela
+
+* * * * * sleep 30  ~/monitor/Elastos.ELA.Monitor/shell/warn_tx_pool.sh ela
