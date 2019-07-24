@@ -223,6 +223,7 @@ $ crontab -e
 2.复制crontab.txt 到 crontab 最后一行
 
 ```
+文件路径：~/monitor/Elastos.ELA.Monitor/shell/crontab.txt
 # 显示如下：
 # m h  dom mon dow   command
 00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
@@ -253,7 +254,7 @@ crontab: installing new crontab
 ```
 $ crontab -l
 # 显示如下：
-    00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
-    00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
+    00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
+    00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
 ```
 

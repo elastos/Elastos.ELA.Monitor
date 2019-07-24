@@ -226,6 +226,7 @@ $ crontab -e
 2. Copy crontab. txt to the last line of crontab
 
 ```
+File path：~/monitor/Elastos.ELA.Monitor/shell/crontab.txt
 # It is shown below：
 # m h  dom mon dow   command
 00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
@@ -256,7 +257,7 @@ crontab: installing new crontab
 ```
 $ crontab -l
 # It is shown below：
-    00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
-    00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh
+    00 01 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
+    00 11 * * *  ~/monitor/Elastos.ELA.Monitor/shell/report_node.sh ela
 ```
 
